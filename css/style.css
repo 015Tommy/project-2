@@ -1,0 +1,25 @@
+
+.boardcontainer {
+ display: flex;
+ gap: 285px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.number2 .boxes {
+    background-color: rgba(165, 18, 18, 0.8);
+    border: 1px solid rgb(250, 8, 0)
+}
+
+.boxes {
+    background-color: rgba(10, 137, 175, 0.8);
+    border: 1px solid rgba(0, 248, 248, 0.8);
+    padding: 35px;
+    text-align: center;
+}
