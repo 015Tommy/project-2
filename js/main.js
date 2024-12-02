@@ -1,4 +1,9 @@
-let player1 = [];
-let player2 = [];
+const divs = document.querySelectorAll('div');
 
-document.querySelector("div");
+for (let i = 0; i < divs.length; i++) {
+    const div = divs[i];
+     if (div.classList.contains('boxes')) {
+        console.log('Found a boxes div:', div);
+    }
+}
+
