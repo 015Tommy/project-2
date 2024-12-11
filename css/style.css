@@ -23,3 +23,15 @@
     padding: 35px;
     text-align: center;
 }
+
+.ships1, .ships2, .ships3, .ships4, .ships5, .ships6, .ships7, .ships8 {
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 75px; 
+    cursor: move; 
+    position: absolute; 
+  }
+
+
