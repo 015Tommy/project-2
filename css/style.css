@@ -1,85 +1,93 @@
-
 .boardcontainer {
- display: flex;
- gap: 285px;
+  display: flex;
+  gap: 285px;
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
-    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
-    background-color: rgb(255, 255, 255);
-    padding: 5px;
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
 }
 
 .number2 .boxes {
-    background-color: rgba(165, 18, 18, 0.8);
-    border: 1px solid rgb(250, 8, 0)
+  background-color: rgba(165, 18, 18, 0.8);
+  border: 1px solid rgb(250, 8, 0)
 }
 
 .boxes {
-    background-color: rgba(10, 137, 175, 0.8);
-    border: 1px solid rgba(0, 248, 248, 0.8);
-    padding: 35px;
-    text-align: center;
+  background-color: rgba(10, 137, 175, 0.8);
+  border: 1px solid rgba(0, 248, 248, 0.8);
+  padding: 35px;
+  text-align: center;
 }
 
-.ships1, .ships2, .ships3, .ships4, .ships5, .ships6, .ships7, .ships8, .ships9, .ships10 {
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    line-height: 75px; 
-    cursor: move; 
-    position: absolute; 
-    background-color: lightblue;
-  }
+.ships1,
+.ships2,
+.ships3,
+.ships4,
+.ships5,
+.ships6,
+.ships7,
+.ships8,
+.ships9,
+.ships10 {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 75px;
+  cursor: move;
+  position: absolute;
+  background-color: lightblue;
+}
 
-  .ships1 {
-    width: 80px;
-    height: 80px;
-  }
+.ships1 {
+  width: 80px;
+  height: 80px;
+}
 
-  .ships2 {
-    width: 80px;
-    height: 160px;
-  }
+.ships2 {
+  width: 80px;
+  height: 160px;
+}
 
-  .ships3 {
-    width: 80px;
-    height: 160px;
-  }
+.ships3 {
+  width: 80px;
+  height: 160px;
+}
 
-  .ships4 {
-    width: 80px;
-    height: 240px;
-  }
+.ships4 {
+  width: 80px;
+  height: 240px;
+}
 
-  .ships5 {
-    width: 80px;
-    height: 240px;
-  }
+.ships5 {
+  width: 80px;
+  height: 240px;
+}
 
-  .ships6 {
-    width: 80px;
-    height: 80px;
-  }
+.ships6 {
+  width: 80px;
+  height: 80px;
+}
 
-  .ships7 {
-    width: 80px;
-    height: 160px;
-  }
+.ships7 {
+  width: 80px;
+  height: 160px;
+}
 
-  .ships8 {
-    width: 80px;
-    height: 160px;
-  }
+.ships8 {
+  width: 80px;
+  height: 160px;
+}
 
-  .ships9 {
-    width: 80px;
-    height: 240px;
-  }
+.ships9 {
+  width: 80px;
+  height: 240px;
+}
 
-  .ships10 {
-    width: 80px;
-    height: 240px;
-  }
+.ships10 {
+  width: 80px;
+  height: 240px;
+}
