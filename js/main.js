@@ -12,3 +12,4 @@ const ships = document.querySelectorAll('.ship');
 ships.forEach(ship => {
     ship.setAttribute('draggable', 'true');
 });
+

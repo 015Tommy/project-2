@@ -39,7 +39,7 @@
   line-height: 75px;
   cursor: move;
   position: absolute;
-  background-color: lightblue;
+  background-color: rgb(159, 216, 216);
 }
 
 .ships1 {
