@@ -1,24 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Battleship Game</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
-<body>
-  <div class="container">
-    <h1>Battleship Game</h1>
-    <div class="game-board">
-      <div class="board player-board">
-        <h2>Your Board</h2>
-      </div>
-      <div class="board enemy-board">
-        <h2>Enemy's Board</h2>
-      </div>
+  <body>
+    <h1>Battleship</h1>  
+    <p>Tommy Nguyen</p>
+
+    <div class="board">
+      <!-- Manually create 100 divs for the 10x10 grid -->
+      <div class="box" data-row="0" data-col="0"></div>
+      <div class="box" data-row="0" data-col="1"></div>
+      <div class="box" data-row="0" data-col="2"></div>
+      <div class="box" data-row="0" data-col="3"></div>
+      <div class="box" data-row="0" data-col="4"></div>
+      <div class="box" data-row="0" data-col="5"></div>
+      <div class="box" data-row="0" data-col="6"></div>
+      <div class="box" data-row="0" data-col="7"></div>
+      <div class="box" data-row="0" data-col="8"></div>
+      <div class="box" data-row="0" data-col="9"></div>
+      
+      <div class="box" data-row="1" data-col="0"></div>
+      <div class="box" data-row="1" data-col="1"></div>
+      <div class="box" data-row="1" data-col="2"></div>
+      <div class="box" data-row="1" data-col="3"></div>
+      <div class="box" data-row="1" data-col="4"></div>
+      <div class="box" data-row="1" data-col="5"></div>
+      <div class="box" data-row="1" data-col="6"></div>
+      <div class="box" data-row="1" data-col="7"></div>
+      <div class="box" data-row="1" data-col="8"></div>
+      <div class="box" data-row="1" data-col="9"></div>
+      
+      <div class="box" data-row="2" data-col="0"></div>
+      <div class="box" data-row="2" data-col="1"></div>
+      <div class="box" data-row="2" data-col="2"></div>
+      <div class="box" data-row="2" data-col="3"></div>
+      <div class="box" data-row="2" data-col="4"></div>
+      <div class="box" data-row="2" data-col="5"></div>
+      <div class="box" data-row="2" data-col="6"></div>
+      <div class="box" data-row="2" data-col="7"></div>
+      <div class="box" data-row="2" data-col="8"></div>
+      <div class="box" data-row="2" data-col="9"></div>
+      
+      <div class="box" data-row="3" data-col="0"></div>
+      <div class="box" data-row="3" data-col="1"></div>
+      <div class="box" data-row="3" data-col="2"></div>
+      <div class="box" data-row="3" data-col="3"></div>
+      <div class="box" data-row="3" data-col="4"></div>
+      <div class="box" data-row="3" data-col="5"></div>
+      <div class="box" data-row="3" data-col="6"></div>
+      <div class="box" data-row="3" data-col="7"></div>
+      <div class="box" data-row="3" data-col="8"></div>
+      <div class="box" data-row="3" data-col="9"></div>
+      
+      <div class="box" data-row="4" data-col="0"></div>
+      <div class="box" data-row="4" data-col="1"></div>
+      <div class="box" data-row="4" data-col="2"></div>
+      <div class="box" data-row="4" data-col="3"></div>
+      <div class="box" data-row="4" data-col="4"></div>
+      <div class="box" data-row="4" data-col="5"></div>
+      <div class="box" data-row="4" data-col="6"></div>
+      <div class="box" data-row="4" data-col="7"></div>
+      <div class="box" data-row="4" data-col="8"></div>
+      <div class="box" data-row="4" data-col="9"></div>
+      
+      <div class="box" data-row="5" data-col="0"></div>
+      <div class="box" data-row="5" data-col="1"></div>
+      <div class="box" data-row="5" data-col="2"></div>
+      <div class="box" data-row="5" data-col="3"></div>
+      <div class="box" data-row="5" data-col="4"></div>
+      <div class="box" data-row="5" data-col="5"></div>
+      <div class="box" data-row="5" data-col="6"></div>
+      <div class="box" data-row="5" data-col="7"></div>
+      <div class="box" data-row="5" data-col="8"></div>
+      <div class="box" data-row="5" data-col="9"></div>
+      
+      <div class="box" data-row="6" data-col="0"></div>
+      <div class="box" data-row="6" data-col="1"></div>
+      <div class="box" data-row="6" data-col="2"></div>
+      <div class="box" data-row="6" data-col="3"></div>
+      <div class="box" data-row="6" data-col="4"></div>
+      <div class="box" data-row="6" data-col="5"></div>
+      <div class="box" data-row="6" data-col="6"></div>
+      <div class="box" data-row="6" data-col="7"></div>
+      <div class="box" data-row="6" data-col="8"></div>
+      <div class="box" data-row="6" data-col="9"></div>
+      
+      <div class="box" data-row="7" data-col="0"></div>
+      <div class="box" data-row="7" data-col="1"></div>
+      <div class="box" data-row="7" data-col="2"></div>
+      <div class="box" data-row="7" data-col="3"></div>
+      <div class="box" data-row="7" data-col="4"></div>
+      <div class="box" data-row="7" data-col="5"></div>
+      <div class="box" data-row="7" data-col="6"></div>
+      <div class="box" data-row="7" data-col="7"></div>
+      <div class="box" data-row="7" data-col="8"></div>
+      <div class="box" data-row="7" data-col="9"></div>
+      
+      <div class="box" data-row="8" data-col="0"></div>
+      <div class="box" data-row="8" data-col="1"></div>
+      <div class="box" data-row="8" data-col="2"></div>
+      <div class="box" data-row="8" data-col="3"></div>
+      <div class="box" data-row="8" data-col="4"></div>
+      <div class="box" data-row="8" data-col="5"></div>
+      <div class="box" data-row="8" data-col="6"></div>
+      <div class="box" data-row="8" data-col="7"></div>
+      <div class="box" data-row="8" data-col="8"></div>
+      <div class="box" data-row="8" data-col="9"></div>
+      
+      <div class="box" data-row="9" data-col="0"></div>
+      <div class="box" data-row="9" data-col="1"></div>
+      <div class="box" data-row="9" data-col="2"></div>
+      <div class="box" data-row="9" data-col="3"></div>
+      <div class="box" data-row="9" data-col="4"></div>
+      <div class="box" data-row="9" data-col="5"></div>
+      <div class="box" data-row="9" data-col="6"></div>
+      <div class="box" data-row="9" data-col="7"></div>
+      <div class="box" data-row="9" data-col="8"></div>
+      <div class="box" data-row="9" data-col="9"></div>
     </div>
-    <button class="reset-btn">Reset Game</button>
-  </div>
-  <script src="js/main.js"></script>
-</body>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>

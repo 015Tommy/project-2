@@ -1,66 +1,26 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  margin: 20px;
-}
-
-h1 {
-  color: #000000;
-}
-
-.game-board {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
+/* Style for the gameboard grid */
 .board {
   display: grid;
   grid-template-columns: repeat(10, 50px); 
   grid-template-rows: repeat(10, 50px); 
-  gap: 5px;
-  justify-items: center;
-  align-items: center;
-  background-color: #0b64da86;
-  padding: 10px;
-  border: 2px solid #000000;
+  gap: 1px;
+  margin: auto;
 }
 
-.board div {
+
+.box {
   width: 50px;
   height: 50px;
-  background-color: #0004ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  background-color: rgb(36, 161, 202);
+  border: 1px solid #aaa;
 }
 
 
-.board .hit {
-  background-color: red;
+.hit {
+  background-color: red; 
 }
 
-.board .miss {
-  background-color: rgb(255, 230, 0);
-}
 
-.reset-btn {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.reset-btn:hover {
-  background-color: #45a049;
+.miss {
+  background-color: rgb(235, 199, 0); 
 }
